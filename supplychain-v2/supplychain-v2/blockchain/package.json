@@ -1,0 +1,14 @@
+{
+  "name": "supplychain-blockchain",
+  "version": "1.0.0",
+  "description": "Supply Chain Blockchain",
+  "scripts": {
+    "node": "hardhat node",
+    "deploy": "hardhat run scripts/deploy.js --network localhost",
+    "setup": "hardhat run scripts/setup.js --network localhost"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "hardhat": "^2.22.0"
+  }
+}
